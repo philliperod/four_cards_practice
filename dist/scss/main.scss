@@ -1,4 +1,5 @@
 @import './variables';
+@import './header';
 @import './container';
 @import './cards';
 
@@ -8,3 +9,18 @@
 
 // - Mobile: 375px
 // - Desktop: 1440px
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-family;
+  background-color: $light-gray;
+}
+
+p {
+  color: $gray-blue;
+}

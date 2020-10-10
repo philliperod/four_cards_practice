@@ -1,0 +1,15 @@
+header {
+  margin: 50px auto;
+  max-width: 500px;
+  text-align: center;
+}
+
+h1 {
+  font-weight: weight('light');
+  color: $dark-blue;
+  margin: 0;
+}
+
+span {
+  font-weight: weight('bold');
+}
