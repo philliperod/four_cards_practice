@@ -20,6 +20,18 @@ span {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin: 0 auto;
+  max-width: 1120px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 30px;
+  margin: 15px;
+  width: 350px;
+  -webkit-box-shadow: 0 14px 28px #e2e8f2, 0 10px 10px #e2e8f2;
+          box-shadow: 0 14px 28px #e2e8f2, 0 10px 10px #e2e8f2;
+  border-radius: 5px;
 }
 
 h3 {
