@@ -1,2 +1,2 @@
-.flex_container{display:grid;grid-template-columns:repeat(3, 15.625rem);grid-auto-rows:12.5rem;grid-gap:1.25rem;color:#fff}.card_one{grid-column:1/2;grid-row:2;background-color:#45d3d3}.card_two{grid-column:2/3;grid-row:1;margin-bottom:-6.875rem;margin-top:6.875rem;background-color:#ea5353}.card_three{grid-column:2/3;grid-row:3;margin-top:-6.875rem;margin-bottom:6.875rem;background-color:#fcaf4a}.card_four{grid-column:3/4;grid-row:2;background-color:#ea5353}body{background-color:#fafafa;width:80%}
+
 /*# sourceMappingURL=main.min.css.map */
