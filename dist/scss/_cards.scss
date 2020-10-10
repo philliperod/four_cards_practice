@@ -3,13 +3,40 @@
   padding: 30px;
   margin: 15px;
   width: 350px;
-  box-shadow: 0 14px 28px rgb(226, 232, 242), 0 10px 10px rgb(226, 232, 242);
+  box-shadow: 0 14px 28px rgb(220, 229, 239), 0 10px 10px rgb(244, 245, 249);
   border-radius: 5px;
+
+  p {
+    margin: 15px 0 30px;
+  }
+}
+
+.supervisor {
+  border-top: 3px solid $cyan;
+}
+
+.team_builder {
+  border-top: 3px solid $red;
+}
+
+.karma {
+  border-top: 3px solid $orange;
+}
+
+.calculator {
+  border-top: 3px solid $blue;
 }
 
 h3 {
   color: $dark-blue;
+  margin: 0;
 }
 
-//
-//
+img {
+  //   float: right;
+  display: block;
+  margin-left: auto;
+}
+
+// rgb(220, 229, 239) bottom
+// rgb(244, 245, 249) side

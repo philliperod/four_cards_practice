@@ -21,7 +21,10 @@ span {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin: 0 auto;
-  max-width: 1120px;
+  max-width: 1230px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .card {
@@ -29,13 +32,38 @@ span {
   padding: 30px;
   margin: 15px;
   width: 350px;
-  -webkit-box-shadow: 0 14px 28px #e2e8f2, 0 10px 10px #e2e8f2;
-          box-shadow: 0 14px 28px #e2e8f2, 0 10px 10px #e2e8f2;
+  -webkit-box-shadow: 0 14px 28px #dce5ef, 0 10px 10px #f4f5f9;
+          box-shadow: 0 14px 28px #dce5ef, 0 10px 10px #f4f5f9;
   border-radius: 5px;
+}
+.card p {
+  margin: 15px 0 30px;
+}
+
+.supervisor {
+  border-top: 3px solid #45d3d3;
+}
+
+.team_builder {
+  border-top: 3px solid #ea5353;
+}
+
+.karma {
+  border-top: 3px solid #fcaf4a;
+}
+
+.calculator {
+  border-top: 3px solid #549ef2;
 }
 
 h3 {
   color: #4c4e61;
+  margin: 0;
+}
+
+img {
+  display: block;
+  margin-left: auto;
 }
 
 *,
@@ -52,5 +80,6 @@ body {
 
 p {
   color: #a3a5ae;
+  font-size: 15px;
 }
 /*# sourceMappingURL=main.css.map */
